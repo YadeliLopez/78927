@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
- targetNamespace="https://TIS.uv.mx/saludos"
- xmlns:tns="https://TIS.uv.mx/saludos"
+ targetNamespace="https://t4is.uv.mx/saludos"
+ xmlns:tns="https://t4is.uv.mx/saludos"
  elementFormDefault="qualified">
  <xs:element name="SaludarRequest">
   <xs:complexType>

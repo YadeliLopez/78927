@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+ targetNamespace="https://t4is.uv.mx/actividades"
+ xmlns:tns="https://t4is.uv.mx/actividades"
+ elementFormDefault="qualified">
+ <xs:element name="ActividadRequest">
+  <xs:complexType>
+   <xs:sequence>
+    <xs:element name="nombre" type="xs:string"/>
+   </xs:sequence>
+  </xs:complexType>
+ </xs:element>
+ <xs:element name="ActividadResponse">
+  <xs:complexType>
+   <xs:sequence>
+    <xs:element name="actividad" type="xs:string"/>
+   </xs:sequence>
+  </xs:complexType>
+ </xs:element>
+<xs:element name="BuscarActividadRequest"/>
+ <xs:element name="BuscarActividadResponse">
+  <xs:complexType>
+   <xs:sequence>
+    <xs:element name="actividades" maxOccurs="unbounded">
+           <xs:complexType>
+             <xs:sequence>
+               <xs:element name="id" type="xs:int"></xs:element>
+               <xs:element name="nombre" type="xs:string"></xs:element>
+             </xs:sequence>
+           </xs:complexType>
+       </xs:element>
+   </xs:sequence>
+  </xs:complexType>
+ </xs:element>
+</xs:schema>

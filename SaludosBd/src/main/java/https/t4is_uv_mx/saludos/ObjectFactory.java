@@ -2,11 +2,11 @@
 // Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.3.2 
 // Visite <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
 // Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
-// Generado el: 2022.03.29 a las 02:20:50 PM CST 
+// Generado el: 2022.04.20 a las 02:21:20 PM CDT 
 //
 
 
-package https.tis_uv_mx.saludos;
+package https.t4is_uv_mx.saludos;
 
 import javax.xml.bind.JAXBElement;
 import javax.xml.bind.annotation.XmlElementDecl;
@@ -17,7 +17,7 @@ import javax.xml.namespace.QName;
 /**
  * This object contains factory methods for each 
  * Java content interface and Java element interface 
- * generated in the https.tis_uv_mx.saludos package. 
+ * generated in the https.t4is_uv_mx.saludos package. 
  * <p>An ObjectFactory allows you to programatically 
  * construct new instances of the Java representation 
  * for XML content. The Java representation of XML 
@@ -31,10 +31,10 @@ import javax.xml.namespace.QName;
 @XmlRegistry
 public class ObjectFactory {
 
-    private final static QName _BuscarSaludosRequest_QNAME = new QName("https://TIS.uv.mx/saludos", "BuscarSaludosRequest");
+    private final static QName _BuscarSaludosRequest_QNAME = new QName("https://t4is.uv.mx/saludos", "BuscarSaludosRequest");
 
     /**
-     * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package: https.tis_uv_mx.saludos
+     * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package: https.t4is_uv_mx.saludos
      * 
      */
     public ObjectFactory() {
@@ -112,7 +112,7 @@ public class ObjectFactory {
      * @return
      *     the new instance of {@link JAXBElement }{@code <}{@link Object }{@code >}
      */
-    @XmlElementDecl(namespace = "https://TIS.uv.mx/saludos", name = "BuscarSaludosRequest")
+    @XmlElementDecl(namespace = "https://t4is.uv.mx/saludos", name = "BuscarSaludosRequest")
     public JAXBElement<Object> createBuscarSaludosRequest(Object value) {
         return new JAXBElement<Object>(_BuscarSaludosRequest_QNAME, Object.class, null, value);
     }
